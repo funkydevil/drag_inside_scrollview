@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABB11B6401ACCE56ADD5B05E /* DragableInsudeScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB119E59D3DB2374E006A71 /* DragableInsudeScrollView.swift */; };
 		F15D76441EA52BD700607A39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15D76431EA52BD700607A39 /* AppDelegate.swift */; };
 		F15D76461EA52BD700607A39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15D76451EA52BD700607A39 /* ViewController.swift */; };
 		F15D76491EA52BD700607A39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15D76471EA52BD700607A39 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ABB119E59D3DB2374E006A71 /* DragableInsudeScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragableInsudeScrollView.swift; sourceTree = "<group>"; };
 		F15D76401EA52BD700607A39 /* DragInsideScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragInsideScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15D76431EA52BD700607A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F15D76451EA52BD700607A39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,14 +56,23 @@
 		F15D76421EA52BD700607A39 /* DragInsideScroll */ = {
 			isa = PBXGroup;
 			children = (
-				F15D76431EA52BD700607A39 /* AppDelegate.swift */,
+				F1DB27701EA6C7BB00D36B4F /* suport files */,
 				F15D76451EA52BD700607A39 /* ViewController.swift */,
+				ABB119E59D3DB2374E006A71 /* DragableInsudeScrollView.swift */,
+			);
+			path = DragInsideScroll;
+			sourceTree = "<group>";
+		};
+		F1DB27701EA6C7BB00D36B4F /* suport files */ = {
+			isa = PBXGroup;
+			children = (
+				F15D76431EA52BD700607A39 /* AppDelegate.swift */,
 				F15D76471EA52BD700607A39 /* Main.storyboard */,
 				F15D764A1EA52BD700607A39 /* Assets.xcassets */,
 				F15D764C1EA52BD700607A39 /* LaunchScreen.storyboard */,
 				F15D764F1EA52BD700607A39 /* Info.plist */,
 			);
-			path = DragInsideScroll;
+			name = "suport files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				F15D76461EA52BD700607A39 /* ViewController.swift in Sources */,
 				F15D76441EA52BD700607A39 /* AppDelegate.swift in Sources */,
+				ABB11B6401ACCE56ADD5B05E /* DragableInsudeScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +311,7 @@
 				F15D76541EA52BD700607A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
